@@ -1,0 +1,18 @@
+body{
+	color:white;
+	background-image: url("space.png");
+}
+li{
+	list-style-type:none;
+}
+h2.contents{
+	border-bottom:1px solid white;
+}
+a { 
+    color:purple;
+    text-decoration:none;
+	font-family: courier;
+}
+a:hover, a:focus {
+    text-decoration:underline;
+}

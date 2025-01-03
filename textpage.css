@@ -1,0 +1,10 @@
+body{
+	color:white;
+}
+p{
+	text-indent:25px;
+	font-family:courier;
+}
+h2, h3{
+	border-bottom:1px solid white;
+}
