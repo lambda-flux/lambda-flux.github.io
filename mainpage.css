@@ -1,12 +1,13 @@
 body{
 	color:white;
 	background-image: url("space.png");
+	text-align: center;
 }
 li{
 	list-style-type:none;
 }
 h2.contents{
-	border-bottom:1px solid white;
+	border-bottom:2px solid white;
 }
 a { 
     color:purple;
@@ -15,4 +16,12 @@ a {
 }
 a:hover, a:focus {
     text-decoration:underline;
+}
+a.alvorddays{
+	color:	#7d674a;
+	background-image: url("sand.jpg");
+	background-size: cover;
+	border-radius: 25px;
+	padding:10px;
+	
 }

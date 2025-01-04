@@ -4,7 +4,15 @@ body{
 p{
 	text-indent:25px;
 	font-family:courier;
+	line-height:1.4em;
+	padding: 10px;
 }
-h2, h3{
+h1, h2, h3{
+	text-align:center
+}
+h2{
+	border-bottom:2px solid white;
+}
+h3{
 	border-bottom:1px solid white;
 }
