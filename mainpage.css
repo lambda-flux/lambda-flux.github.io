@@ -10,18 +10,31 @@ h2.contents{
 	border-bottom:2px solid white;
 }
 a { 
-    color:purple;
+    color: purple;
     text-decoration:none;
 	font-family: courier;
 }
 a:hover, a:focus {
     text-decoration:underline;
 }
-a.alvorddays{
+.alvorddays{
 	color:	#7d674a;
 	background-image: url("sand.jpg");
 	background-size: cover;
 	border-radius: 25px;
 	padding:10px;
-	
+}
+.spacewestern{
+	color: #278a43;
+	background-image: url("spacewesternbg.png");
+	background-size: cover;
+	border-radius: 25px;
+	padding:10px;
+}
+.planet4{
+	color: #70406A;
+	background-image: url("planet4bg.png");
+	background-size: cover;
+	border-radius: 25px;
+	padding:10px;
 }
