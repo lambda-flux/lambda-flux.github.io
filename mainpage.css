@@ -9,13 +9,10 @@ li{
 h2.contents{
 	border-bottom:2px solid white;
 }
-a { 
+a{ 
     color: purple;
     text-decoration:none;
 	font-family: courier;
-}
-a:hover, a:focus {
-    text-decoration:underline;
 }
 .alvorddays{
 	color:	#7d674a;
@@ -37,4 +34,12 @@ a:hover, a:focus {
 	background-size: cover;
 	border-radius: 25px;
 	padding:10px;
+}
+.grow{ 
+	transition: all .2s ease-in-out; 
+	width: fit-content;
+	margin: auto;
+}
+.grow:hover{ 
+	transform: scale(1.1); 
 }
