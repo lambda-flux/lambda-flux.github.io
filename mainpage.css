@@ -23,23 +23,39 @@ a{
 }
 .spacewestern{
 	color: #278a43;
-	background-image: url("spacewesternbg.png");
+	background-image: url("spacewestern.png");
 	background-size: cover;
 	border-radius: 25px;
 	padding:10px;
 }
 .planet4{
 	color: #70406A;
-	background-image: url("planet4bg.png");
+	background-image: url("planet4.png");
 	background-size: cover;
 	border-radius: 25px;
 	padding:10px;
+}
+.youtube{
+	float: left;
+	width:50%;
+	overflow: hidden;
+}
+.column{
+	float: left;
+	width: 30%
+}
+.center{
+	align-items:center;
 }
 .grow{ 
 	transition: all .2s ease-in-out; 
 	width: fit-content;
 	margin: auto;
+	filter: gray;
+	filter: saturate(40%);
 }
 .grow:hover{ 
 	transform: scale(1.1); 
+	filter: none;
+	filter:saturate(100%);
 }
