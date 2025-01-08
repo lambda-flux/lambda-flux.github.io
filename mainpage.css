@@ -52,7 +52,7 @@ a{
 	width: fit-content;
 	margin: auto;
 	filter: gray;
-	filter: saturate(40%);
+	filter: saturate(35%);
 }
 .grow:hover{ 
 	transform: scale(1.1); 
