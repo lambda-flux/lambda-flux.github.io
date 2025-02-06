@@ -8,6 +8,7 @@ li{
 }
 h2.contents{
 	border-bottom:2px solid white;
+	text-align:center;
 }
 a{ 
     color: purple;
@@ -35,11 +36,6 @@ a{
 	border-radius: 25px;
 	padding:10px;
 }
-.youtube{
-	float: left;
-	width:50%;
-	overflow: hidden;
-}
 .column{
 	float: left;
 	width: 30%
@@ -52,10 +48,36 @@ a{
 	width: fit-content;
 	margin: auto;
 	filter: gray;
-	filter: saturate(35%);
+	filter: saturate(30%);
 }
 .grow:hover{ 
 	transform: scale(1.1); 
 	filter: none;
 	filter:saturate(100%);
+}
+.flex{
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items:center;
+	align-content:center;
+}
+.youtube{
+	width:auto;
+	height:auto;
+}
+.instagram{
+	width:auto;
+	height:auto;
+}
+.imgbox{
+	display:grid;
+	height:100%;
+}
+.lambda{
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 58%;
 }
