@@ -49,6 +49,7 @@ a{
 	margin: auto;
 	filter: gray;
 	filter: saturate(30%);
+	text-align:center;
 }
 .grow:hover{ 
 	transform: scale(1.1); 
