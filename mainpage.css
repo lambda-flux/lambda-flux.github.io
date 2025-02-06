@@ -19,22 +19,28 @@ a{
 	color:	#7d674a;
 	background-image: url("sand.jpg");
 	background-size: cover;
+	background-position:center;
 	border-radius: 25px;
 	padding:10px;
+	text-align:center;
 }
 .spacewestern{
 	color: #278a43;
 	background-image: url("spacewestern.png");
 	background-size: cover;
+	background-position:center;
 	border-radius: 25px;
 	padding:10px;
+	text-align:center;
 }
 .planet4{
 	color: #70406A;
 	background-image: url("planet4.png");
 	background-size: cover;
+	background-position:center;
 	border-radius: 25px;
 	padding:10px;
+	text-align:center;
 }
 .column{
 	float: left;
